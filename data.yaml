@@ -1,5 +1,16 @@
-train: dataset/images/train
-val: dataset/images/val
+train: 'C:/Users/Niro/Documents/UPC Academico/Taller de Proyecto/model/datasets/dataset/images/train'
+val: 'C:/Users/Niro/Documents/UPC Academico/Taller de Proyecto/model/datasets/dataset/images/valid'
+test: 'C:/Users/Niro/Documents/UPC Academico/Taller de Proyecto/model/datasets/dataset/images/test/images'
+
+names:
+  0: gun
+  1: knife
 
 nc: 2
-names: ['knife','gun']
+
+roboflow:
+  workspace: weapons-projectupc
+  project: knife-and-gun-model
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/weapons-projectupc/knife-and-gun-model/dataset/3

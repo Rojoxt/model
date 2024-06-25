@@ -1,7 +1,0 @@
-fastapi
-uvicorn
-torch
-opencv-python-headless
-pydantic
-shutil
-ultralytics
